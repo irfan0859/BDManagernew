@@ -1,6 +1,6 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-bot_token = "469622025:AAGCAP5L3gxWY057U4kgZHNQM5buc--CvoI"
+bot_token = "469622025:AAFfHMvjvrk0Fu2caUPgcDe5inCPlDOmbeY"
 send_api = "https://api.telegram.org/bot"..bot_token
 BeyondTeam = -1001135740374
 sudo_id = 465511496
