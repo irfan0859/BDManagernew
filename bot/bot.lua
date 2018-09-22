@@ -1,9 +1,9 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-bot_token = "Token"
+bot_token = "469622025:AAGCAP5L3gxWY057U4kgZHNQM5buc--CvoI"
 send_api = "https://api.telegram.org/bot"..bot_token
-BeyondTeam = -1001011351482
-sudo_id = 157059515
+BeyondTeam = -1001135740374
+sudo_id = 465511496
 http = require('socket.http')
 https = require('ssl.https')
 URL = require('socket.url')
@@ -16,7 +16,7 @@ JSON = (loadfile "./libs/dkjson.lua")()
 serpent = (loadfile "./libs/serpent.lua")()
 require('./bot/methods')
 require('./bot/utils')
--- @BeyondTeam
+-- @bfcanal
 function bot_run()
 	bot = nil
 	while not bot do
@@ -130,7 +130,7 @@ local lang = redis:get(hash)
 keyboard = {}
   keyboard.inline_keyboard = {
    {
-{text= 'Beyond Team Channel' ,url = 'Telegram.Me/BeyondTeam'}
+{text= 'Beyond Team Channel' ,url = 'Telegram.Me/bfcanal'}
 }					
 		}
 		if lang then
@@ -200,7 +200,7 @@ if not tostring(SUDO):match('%d+') then
     "banhammer",
     "fun"
     },
-    sudo_users = {157059515, SUDO},--Sudo users
+    sudo_users = {465511496, SUDO},--Sudo users
     master_id = SUDO, 
     admins = {},
     disabled_channels = {},
@@ -211,19 +211,15 @@ if not tostring(SUDO):match('%d+') then
 》[Beyond Manager](https://github.com/BeyondTeam/BDManager)
 
 *》Admins :*
-*》Founder & Developer :* [SoLiD](Telegram.Me/SoLiD)
-_》Developer & Sponser :_ [MAKAN](Telegram.Me/MAKAN)
-_》Developer :_ [ToOfan](Telegram.Me/ToOfan)
-_》Developer :_ [TheNIS](Telegram.Me/bypa3r)
+*》Founder & Developer :* [Groot](Telegram.Me/hacker_la)
 
 *》Special thanks to :*
-`Beyond Team Members`
+`bfcanal Team Members`
 
 *》Our channel :*
-》[BeyondTeam](Telegram.Me/BeyondTeam)
+》[BeyondTeam](Telegram.Me/bfcanal)
 
-*》Our Site :*
-[Beyond Team Forum](beyond-dev.ir)
+
 ]],
   }
   serialize_to_file(config, './data/config.lua')
